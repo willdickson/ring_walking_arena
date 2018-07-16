@@ -1,0 +1,1798 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 150.0
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 3.1551907688
+; centerY: 7.08104370118
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X3.58049077 Y7.08104370
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X3.58049077 Y7.08104370
+G1 X3.58049077 Y7.08104370 Z0.00000000
+G3 X3.58049077 Y7.08104370 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X3.58049077 Y7.08104370
+G3 X3.58049077 Y7.08104370 I-0.42530000 J0.00000000
+G1 X3.57549077 Y7.08104370
+G3 X3.57549077 Y7.08104370 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.07195238816
+; centerY: 7.08106172793
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X4.49725239 Y7.08106173
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X4.49725239 Y7.08106173
+G1 X4.49725239 Y7.08106173 Z0.00000000
+G3 X4.49725239 Y7.08106173 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X4.49725239 Y7.08106173
+G3 X4.49725239 Y7.08106173 I-0.42530000 J0.00000000
+G1 X4.49225239 Y7.08106173
+G3 X4.49225239 Y7.08106173 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.98873490761
+; centerY: 7.08106904913
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X5.41403491 Y7.08106905
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X5.41403491 Y7.08106905
+G1 X5.41403491 Y7.08106905 Z0.00000000
+G3 X5.41403491 Y7.08106905 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X5.41403491 Y7.08106905
+G3 X5.41403491 Y7.08106905 I-0.42530000 J0.00000000
+G1 X5.40903491 Y7.08106905
+G3 X5.40903491 Y7.08106905 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 5.90551699149
+; centerY: 7.08101739459
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X6.33081699 Y7.08101739
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X6.33081699 Y7.08101739
+G1 X6.33081699 Y7.08101739 Z0.00000000
+G3 X6.33081699 Y7.08101739 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X6.33081699 Y7.08101739
+G3 X6.33081699 Y7.08101739 I-0.42530000 J0.00000000
+G1 X6.32581699 Y7.08101739
+G3 X6.32581699 Y7.08101739 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 6.82232744336
+; centerY: 7.08103600226
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X7.24762744 Y7.08103600
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X7.24762744 Y7.08103600
+G1 X7.24762744 Y7.08103600 Z0.00000000
+G3 X7.24762744 Y7.08103600 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X7.24762744 Y7.08103600
+G3 X7.24762744 Y7.08103600 I-0.42530000 J0.00000000
+G1 X7.24262744 Y7.08103600
+G3 X7.24262744 Y7.08103600 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 7.73910889809
+; centerY: 7.08104577673
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X8.16440890 Y7.08104578
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X8.16440890 Y7.08104578
+G1 X8.16440890 Y7.08104578 Z0.00000000
+G3 X8.16440890 Y7.08104578 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X8.16440890 Y7.08104578
+G3 X8.16440890 Y7.08104578 I-0.42530000 J0.00000000
+G1 X8.15940890 Y7.08104578
+G3 X8.15940890 Y7.08104578 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 8.65590492625
+; centerY: 7.08106896258
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X9.08120493 Y7.08106896
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X9.08120493 Y7.08106896
+G1 X9.08120493 Y7.08106896 Z0.00000000
+G3 X9.08120493 Y7.08106896 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X9.08120493 Y7.08106896
+G3 X9.08120493 Y7.08106896 I-0.42530000 J0.00000000
+G1 X9.07620493 Y7.08106896
+G3 X9.07620493 Y7.08106896 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 8.65589107972
+; centerY: 6.09963758594
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X9.08119108 Y6.09963759
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X9.08119108 Y6.09963759
+G1 X9.08119108 Y6.09963759 Z0.00000000
+G3 X9.08119108 Y6.09963759 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X9.08119108 Y6.09963759
+G3 X9.08119108 Y6.09963759 I-0.42530000 J0.00000000
+G1 X9.07619108 Y6.09963759
+G3 X9.07619108 Y6.09963759 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 7.73911245372
+; centerY: 6.09956102792
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X8.16441245 Y6.09956103
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X8.16441245 Y6.09956103
+G1 X8.16441245 Y6.09956103 Z0.00000000
+G3 X8.16441245 Y6.09956103 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X8.16441245 Y6.09956103
+G3 X8.16441245 Y6.09956103 I-0.42530000 J0.00000000
+G1 X8.15941245 Y6.09956103
+G3 X8.15941245 Y6.09956103 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 6.82230757678
+; centerY: 6.09955870654
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X7.24760758 Y6.09955871
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X7.24760758 Y6.09955871
+G1 X7.24760758 Y6.09955871 Z0.00000000
+G3 X7.24760758 Y6.09955871 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X7.24760758 Y6.09955871
+G3 X7.24760758 Y6.09955871 I-0.42530000 J0.00000000
+G1 X7.24260758 Y6.09955871
+G3 X7.24260758 Y6.09955871 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 5.90551863229
+; centerY: 6.09956677839
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X6.33081863 Y6.09956678
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X6.33081863 Y6.09956678
+G1 X6.33081863 Y6.09956678 Z0.00000000
+G3 X6.33081863 Y6.09956678 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X6.33081863 Y6.09956678
+G3 X6.33081863 Y6.09956678 I-0.42530000 J0.00000000
+G1 X6.32581863 Y6.09956678
+G3 X6.32581863 Y6.09956678 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.98874723711
+; centerY: 6.09957363573
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X5.41404724 Y6.09957364
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X5.41404724 Y6.09957364
+G1 X5.41404724 Y6.09957364 Z0.00000000
+G3 X5.41404724 Y6.09957364 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X5.41404724 Y6.09957364
+G3 X5.41404724 Y6.09957364 I-0.42530000 J0.00000000
+G1 X5.40904724 Y6.09957364
+G3 X5.40904724 Y6.09957364 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.07195636467
+; centerY: 6.09955068892
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X4.49725636 Y6.09955069
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X4.49725636 Y6.09955069
+G1 X4.49725636 Y6.09955069 Z0.00000000
+G3 X4.49725636 Y6.09955069 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X4.49725636 Y6.09955069
+G3 X4.49725636 Y6.09955069 I-0.42530000 J0.00000000
+G1 X4.49225636 Y6.09955069
+G3 X4.49225636 Y6.09955069 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 3.15516328447
+; centerY: 6.09958996377
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X3.58046328 Y6.09958996
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X3.58046328 Y6.09958996
+G1 X3.58046328 Y6.09958996 Z0.00000000
+G3 X3.58046328 Y6.09958996 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X3.58046328 Y6.09958996
+G3 X3.58046328 Y6.09958996 I-0.42530000 J0.00000000
+G1 X3.57546328 Y6.09958996
+G3 X3.57546328 Y6.09958996 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 3.15516952916
+; centerY: 5.11809117043
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X3.58046953 Y5.11809117
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X3.58046953 Y5.11809117
+G1 X3.58046953 Y5.11809117 Z0.00000000
+G3 X3.58046953 Y5.11809117 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X3.58046953 Y5.11809117
+G3 X3.58046953 Y5.11809117 I-0.42530000 J0.00000000
+G1 X3.57546953 Y5.11809117
+G3 X3.57546953 Y5.11809117 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.07198571252
+; centerY: 5.11812338335
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X4.49728571 Y5.11812338
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X4.49728571 Y5.11812338
+G1 X4.49728571 Y5.11812338 Z0.00000000
+G3 X4.49728571 Y5.11812338 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X4.49728571 Y5.11812338
+G3 X4.49728571 Y5.11812338 I-0.42530000 J0.00000000
+G1 X4.49228571 Y5.11812338
+G3 X4.49228571 Y5.11812338 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.98876275412
+; centerY: 5.11815293673
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X5.41406275 Y5.11815294
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X5.41406275 Y5.11815294
+G1 X5.41406275 Y5.11815294 Z0.00000000
+G3 X5.41406275 Y5.11815294 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X5.41406275 Y5.11815294
+G3 X5.41406275 Y5.11815294 I-0.42530000 J0.00000000
+G1 X5.40906275 Y5.11815294
+G3 X5.40906275 Y5.11815294 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 5.90551475126
+; centerY: 5.11807763308
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X6.33081475 Y5.11807763
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X6.33081475 Y5.11807763
+G1 X6.33081475 Y5.11807763 Z0.00000000
+G3 X6.33081475 Y5.11807763 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X6.33081475 Y5.11807763
+G3 X6.33081475 Y5.11807763 I-0.42530000 J0.00000000
+G1 X6.32581475 Y5.11807763
+G3 X6.32581475 Y5.11807763 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 6.82234414317
+; centerY: 5.11810610056
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X7.24764414 Y5.11810610
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X7.24764414 Y5.11810610
+G1 X7.24764414 Y5.11810610 Z0.00000000
+G3 X7.24764414 Y5.11810610 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X7.24764414 Y5.11810610
+G3 X7.24764414 Y5.11810610 I-0.42530000 J0.00000000
+G1 X7.24264414 Y5.11810610
+G3 X7.24264414 Y5.11810610 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 7.73910898776
+; centerY: 5.11816242119
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X8.16440899 Y5.11816242
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X8.16440899 Y5.11816242
+G1 X8.16440899 Y5.11816242 Z0.00000000
+G3 X8.16440899 Y5.11816242 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X8.16440899 Y5.11816242
+G3 X8.16440899 Y5.11816242 I-0.42530000 J0.00000000
+G1 X8.15940899 Y5.11816242
+G3 X8.15940899 Y5.11816242 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 8.65587726868
+; centerY: 5.118113
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X9.08117727 Y5.11811300
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X9.08117727 Y5.11811300
+G1 X9.08117727 Y5.11811300 Z0.00000000
+G3 X9.08117727 Y5.11811300 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X9.08117727 Y5.11811300
+G3 X9.08117727 Y5.11811300 I-0.42530000 J0.00000000
+G1 X9.07617727 Y5.11811300
+G3 X9.07617727 Y5.11811300 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 3.1551884799
+; centerY: 4.13668896695
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X3.58048848 Y4.13668897
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X3.58048848 Y4.13668897
+G1 X3.58048848 Y4.13668897 Z0.00000000
+G3 X3.58048848 Y4.13668897 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X3.58048848 Y4.13668897
+G3 X3.58048848 Y4.13668897 I-0.42530000 J0.00000000
+G1 X3.57548848 Y4.13668897
+G3 X3.57548848 Y4.13668897 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.07196775239
+; centerY: 4.13669060885
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X4.49726775 Y4.13669061
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X4.49726775 Y4.13669061
+G1 X4.49726775 Y4.13669061 Z0.00000000
+G3 X4.49726775 Y4.13669061 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X4.49726775 Y4.13669061
+G3 X4.49726775 Y4.13669061 I-0.42530000 J0.00000000
+G1 X4.49226775 Y4.13669061
+G3 X4.49226775 Y4.13669061 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.98876434511
+; centerY: 4.13663832778
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X5.41406435 Y4.13663833
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X5.41406435 Y4.13663833
+G1 X5.41406435 Y4.13663833 Z0.00000000
+G3 X5.41406435 Y4.13663833 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X5.41406435 Y4.13663833
+G3 X5.41406435 Y4.13663833 I-0.42530000 J0.00000000
+G1 X5.40906435 Y4.13663833
+G3 X5.40906435 Y4.13663833 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 5.90553758316
+; centerY: 4.13660348948
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X6.33083758 Y4.13660349
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X6.33083758 Y4.13660349
+G1 X6.33083758 Y4.13660349 Z0.00000000
+G3 X6.33083758 Y4.13660349 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X6.33083758 Y4.13660349
+G3 X6.33083758 Y4.13660349 I-0.42530000 J0.00000000
+G1 X6.32583758 Y4.13660349
+G3 X6.32583758 Y4.13660349 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 6.82233601494
+; centerY: 4.13662374558
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X7.24763601 Y4.13662375
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X7.24763601 Y4.13662375
+G1 X7.24763601 Y4.13662375 Z0.00000000
+G3 X7.24763601 Y4.13662375 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X7.24763601 Y4.13662375
+G3 X7.24763601 Y4.13662375 I-0.42530000 J0.00000000
+G1 X7.24263601 Y4.13662375
+G3 X7.24263601 Y4.13662375 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 7.73911692524
+; centerY: 4.13668320217
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X8.16441693 Y4.13668320
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X8.16441693 Y4.13668320
+G1 X8.16441693 Y4.13668320 Z0.00000000
+G3 X8.16441693 Y4.13668320 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X8.16441693 Y4.13668320
+G3 X8.16441693 Y4.13668320 I-0.42530000 J0.00000000
+G1 X8.15941693 Y4.13668320
+G3 X8.15941693 Y4.13668320 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 8.65590799158
+; centerY: 4.13665278628
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X9.08120799 Y4.13665279
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X9.08120799 Y4.13665279
+G1 X9.08120799 Y4.13665279 Z0.00000000
+G3 X9.08120799 Y4.13665279 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X9.08120799 Y4.13665279
+G3 X9.08120799 Y4.13665279 I-0.42530000 J0.00000000
+G1 X9.07620799 Y4.13665279
+G3 X9.07620799 Y4.13665279 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 8.65587378616
+; centerY: 3.1551334297
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X9.08117379 Y3.15513343
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X9.08117379 Y3.15513343
+G1 X9.08117379 Y3.15513343 Z0.00000000
+G3 X9.08117379 Y3.15513343 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X9.08117379 Y3.15513343
+G3 X9.08117379 Y3.15513343 I-0.42530000 J0.00000000
+G1 X9.07617379 Y3.15513343
+G3 X9.07617379 Y3.15513343 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 7.73910814439
+; centerY: 3.15513769652
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X8.16440814 Y3.15513770
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X8.16440814 Y3.15513770
+G1 X8.16440814 Y3.15513770 Z0.00000000
+G3 X8.16440814 Y3.15513770 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X8.16440814 Y3.15513770
+G3 X8.16440814 Y3.15513770 I-0.42530000 J0.00000000
+G1 X8.15940814 Y3.15513770
+G3 X8.15940814 Y3.15513770 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 6.82230164549
+; centerY: 3.15518034733
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X7.24760165 Y3.15518035
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X7.24760165 Y3.15518035
+G1 X7.24760165 Y3.15518035 Z0.00000000
+G3 X7.24760165 Y3.15518035 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X7.24760165 Y3.15518035
+G3 X7.24760165 Y3.15518035 I-0.42530000 J0.00000000
+G1 X7.24260165 Y3.15518035
+G3 X7.24260165 Y3.15518035 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 5.9055525573
+; centerY: 3.15519993703
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X6.33085256 Y3.15519994
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X6.33085256 Y3.15519994
+G1 X6.33085256 Y3.15519994 Z0.00000000
+G3 X6.33085256 Y3.15519994 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X6.33085256 Y3.15519994
+G3 X6.33085256 Y3.15519994 I-0.42530000 J0.00000000
+G1 X6.32585256 Y3.15519994
+G3 X6.32585256 Y3.15519994 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.9887404784
+; centerY: 3.15511328305
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X5.41404048 Y3.15511328
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X5.41404048 Y3.15511328
+G1 X5.41404048 Y3.15511328 Z0.00000000
+G3 X5.41404048 Y3.15511328 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X5.41404048 Y3.15511328
+G3 X5.41404048 Y3.15511328 I-0.42530000 J0.00000000
+G1 X5.40904048 Y3.15511328
+G3 X5.40904048 Y3.15511328 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 4.07197966662
+; centerY: 3.15519799866
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X4.49727967 Y3.15519800
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X4.49727967 Y3.15519800
+G1 X4.49727967 Y3.15519800 Z0.00000000
+G3 X4.49727967 Y3.15519800 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X4.49727967 Y3.15519800
+G3 X4.49727967 Y3.15519800 I-0.42530000 J0.00000000
+G1 X4.49227967 Y3.15519800
+G3 X4.49227967 Y3.15519800 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircAnnulusPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: layout.dxf
+; radius: 0.5503
+; layers: ['removal_annuli']
+; overlapFinish: 0.75
+; depth: 0.059
+; overlap: 0.5
+; thickness: 0.255
+; cornerCut: True
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 3.155220617
+; centerY: 3.15515787005
+; toolDiam: 0.25
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircAnnulusPocketXY: rapid move to start x,y
+G0 X3.58052062 Y3.15515787
+
+; CircAnnulusPocketXY: dwell
+G4 P1.0
+
+; CircAnnulusPocketXY: move to start z
+G1 Z0.00000000
+
+; CircAnnulusPocketXY: pass 1 lead-in
+G1 X3.58052062 Y3.15515787
+G1 X3.58052062 Y3.15515787 Z0.00000000
+G3 X3.58052062 Y3.15515787 Z-0.05900000 I-0.42530000 J0.00000000
+
+; CircAnnulusPocketXY: pass 1 filled circle
+G1 X3.58052062 Y3.15515787
+G3 X3.58052062 Y3.15515787 I-0.42530000 J0.00000000
+G1 X3.57552062 Y3.15515787
+G3 X3.57552062 Y3.15515787 I-0.42030000 J0.00000000
+
+; CircAnnulusPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircAnnulusPocketXY
+; ------------------------------------------------------------
+
+
+M2 (End program)
