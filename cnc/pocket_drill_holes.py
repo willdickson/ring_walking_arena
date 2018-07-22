@@ -19,8 +19,9 @@ coolingPause = 2.0
 holeOversize = 0.0
 
 holeLayerList = [
-        'mount_hole_1/4-20',
-        'mount_hole_8-32',
+        #'mount_hole_1/4-20',
+        #'mount_hole_8-32',
+        'fixture_hole',
         ] 
 
 prog = gcode_cmd.GCodeProg()
