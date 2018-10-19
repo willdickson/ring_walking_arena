@@ -6,7 +6,8 @@ from py2gcode import cnc_dxf
 
 feedrate = 80.0
 fileName = 'layout.dxf'
-depth = 0.125 + 0.1 
+depth = 1.0/8.0 + 0.1 
+#depth = 3.0/16.0 + 0.1 
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5
@@ -19,8 +20,8 @@ coolingPause = 2.0
 holeOversize = 0.0
 
 holeLayerList = [
-        #'mount_hole_1/4-20',
-        #'mount_hole_8-32',
+        'mount_hole_1/4-20',
+        'mount_hole_8-32',
         'fixture_hole',
         ] 
 

@@ -1,3 +1,4 @@
+rm *.ngc
 python boundary.py
 python cut_annuli_pocket.py
 python cut_circ_pocket.py
