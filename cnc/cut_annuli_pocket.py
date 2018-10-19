@@ -17,7 +17,8 @@ cornerCut = True
 direction = 'ccw'
 startDwell = 1.0
 startCond = 'minX'
-thickness = 0.2550
+#thickness = 0.2550
+thickness = 0.5503 - 0.5*14/25.4
 
 layerList = ['removal_annuli' ]
 
